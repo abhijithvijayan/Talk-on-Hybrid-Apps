@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.15",
+    "redbox-react": "^1.6.0",
+    "spectacle": "^5.7.1",
     "spectacle-scripts": "2.4.0"
   },
   "scripts": {
