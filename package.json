@@ -9,7 +9,7 @@
     "nohoist": []
   },
   "scripts": {
-    "dev:web": "yarn workspace @talk/slides dev"
+    "dev:slides": "yarn workspace @talk/slides dev"
   },
   "repository": "https://github.com/abhijithvijayan/Talk-on-Hybrid-Apps.git",
   "author": "abhijithvijayan <34790378+abhijithvijayan@users.noreply.github.com>",
