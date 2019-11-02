@@ -1,25 +1,17 @@
 {
-  "name": "my-presentation",
-  "version": "0.1.0",
+  "name": "Talk-on-Hybrid-Apps",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "spectacle-scripts": "2.4.0"
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev:web": "yarn workspace @talk/slides dev"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "repository": "https://github.com/abhijithvijayan/Talk-on-Hybrid-Apps.git",
+  "author": "abhijithvijayan <34790378+abhijithvijayan@users.noreply.github.com>",
+  "license": "MIT"
 }
