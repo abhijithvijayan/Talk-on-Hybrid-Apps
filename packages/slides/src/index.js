@@ -23,6 +23,7 @@ ReactDOM.render(
 
 if (module.hot) {
     module.hot.accept('./presentation', () => {
+        // eslint-disable-next-line global-require
         const NextPresentation = require('./presentation').default;
         ReactDOM.render(
             <AppContainer errorReporter={CustomErrorReporter}>
