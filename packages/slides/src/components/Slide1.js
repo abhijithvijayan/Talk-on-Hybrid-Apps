@@ -1,7 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Heading, Layout, Image, Fill, Text, Slide } from 'spectacle';
 
 import ProImage from '../assets/images/profile.jpg';
+
+const StyledText = styled(Text)`
+    font-family: ${({ theme }) => {
+        return theme.railway;
+    }} !important;
+`;
 
 const Slide1 = props => {
     return (
@@ -11,15 +18,15 @@ const Slide1 = props => {
             </Heading>
             <Layout style={{ justifyContent: 'center', marginBottom: '5em' }}>
                 <Fill style={{ maxWidth: '68%' }}>
-                    <Text style={{ textAlign: 'left' }} textColor="tertiary">
+                    <StyledText style={{ textAlign: 'left' }} textColor="tertiary">
                         The Art of
-                    </Text>
-                    <Text textColor="yellow" margin={10} style={{ paddingLeft: '1em' }}>
+                    </StyledText>
+                    <StyledText textColor="yellow" margin={10} style={{ paddingLeft: '1em' }}>
                         Being in All Places
-                    </Text>
-                    <Text style={{ textAlign: 'right' }} textColor="tertiary">
+                    </StyledText>
+                    <StyledText style={{ textAlign: 'right' }} textColor="tertiary">
                         at Once!
-                    </Text>
+                    </StyledText>
                 </Fill>
             </Layout>
             <Layout
@@ -50,9 +57,9 @@ const Slide1 = props => {
                         @abhijithvijayan
                     </Text>
                     {/* </div> */}
-                    <Text textColor="primary" style={{ margin: 'auto', marginRight: '50px', fontSize: '20px' }}>
+                    <StyledText textColor="primary" style={{ margin: 'auto', marginRight: '50px', fontSize: '20px' }}>
                         {`${new Date().getDay()}-${new Date().getMonth() + 1}-${new Date().getFullYear()}`}
-                    </Text>
+                    </StyledText>
                 </Fill>
             </Layout>
         </Slide>
