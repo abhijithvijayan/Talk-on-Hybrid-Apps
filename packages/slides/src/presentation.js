@@ -19,6 +19,8 @@ const theme = createTheme(
         lightBlue: '#6AA4C8',
         light: '#A1A3A3',
         lightWhite: '#DAE8F1',
+        grayWhite: '#329988',
+        gray: '#595959',
     },
     {
         primary: "'Roboto', sans-serif",
