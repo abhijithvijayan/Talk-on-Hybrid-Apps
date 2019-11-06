@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Deck } from 'spectacle';
+import React, { useState } from 'react';
+import { Deck, SlideSet } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 import 'normalize.css';
 
@@ -21,17 +21,19 @@ const theme = createTheme(
     }
 );
 
-class Presentation extends Component {
-    render() {
-        return (
-            <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
+const Presentation = () => {
+    const [slideId, setSlideId] = useState(1);
+
+    return (
+        <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
+            <SlideSet>
                 <Slide1 bgColor="black" />
-                <Slide2 />
-                <Slide3 />
-                <Slide4 />
-            </Deck>
-        );
-    }
-}
+                <Slide2 slideId={slideId} setSlideId={setSlideId} />
+                <Slide3 slideId={slideId} setSlideId={setSlideId} />
+                <Slide4 slideId={slideId} setSlideId={setSlideId} />
+            </SlideSet>
+        </Deck>
+    );
+};
 
 export default Presentation;

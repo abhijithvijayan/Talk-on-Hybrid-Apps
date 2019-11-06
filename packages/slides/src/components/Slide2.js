@@ -1,10 +1,13 @@
 import React from 'react';
 import { Heading, Text, Slide, List, Appear, ListItem } from 'spectacle';
 
+import SlideId from './SlideId';
+
 // https://github.com/FormidableLabs/spectacle/issues/678
 const Slide2 = props => {
     return (
         <Slide transition={['fade']} bgColor="tertiary" {...props}>
+            <SlideId slideId={props.slideId} />
             <Heading size={1} textColor="primary" caps>
                 Contents
             </Heading>
