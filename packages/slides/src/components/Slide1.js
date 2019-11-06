@@ -41,7 +41,7 @@ const Slide1 = props => {
     return (
         <Slide transition={['zoom']} bgColor="primary" {...props}>
             <StyledDeviceImage src={DevicesImage} />
-            <StyledHeader style={{}} lineHeight={4} textColor="dark">
+            <StyledHeader lineHeight={4} textColor="dark">
                 Hybrid Multi-Cross Platform Apps
             </StyledHeader>
             <Layout style={{ justifyContent: 'center', marginBottom: '5em' }}>

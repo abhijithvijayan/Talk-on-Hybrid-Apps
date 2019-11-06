@@ -1,13 +1,13 @@
 import React from 'react';
 import { Slide, BlockQuote, Cite, Quote } from 'spectacle';
+import styled from 'styled-components';
+
+import HeaderText from './HeaderText';
 
 const Slide4 = () => {
     return (
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-            <BlockQuote>
-                <Quote>Example Quote</Quote>
-                <Cite>Author</Cite>
-            </BlockQuote>
+            <HeaderText text="Native vs Hybrid Apps" />
         </Slide>
     );
 };

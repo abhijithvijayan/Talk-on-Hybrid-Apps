@@ -1,14 +1,10 @@
 import React from 'react';
-import { Slide, Heading, Text, List, Image, Layout, Fill, ListItem } from 'spectacle';
+import { Slide, Text, List, Image, Layout, Fill, ListItem } from 'spectacle';
 import styled from 'styled-components';
 
 import MultiPlatform from '../assets/images/multi2.png';
+import HeaderText from './HeaderText';
 
-const StyledHeader = styled(Heading)`
-    font-size: 4rem !important;
-    margin-bottom: 3rem !important;
-    text-align: left;
-`;
 const StyledText = styled(Text)`
     text-align: left;
     padding-top: 1em;
@@ -30,9 +26,7 @@ const StyledImage = styled(Image)`
 const Slide3 = props => {
     return (
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary" {...props}>
-            <StyledHeader textColor="secondary" caps>
-                Introduction
-            </StyledHeader>
+            <HeaderText text="Introduction" />
             <StyledText>Hybrid Multi-Cross Platform Apps are:</StyledText>
             <Layout>
                 <Fill style={{ display: 'flex', alignItems: 'center' }}>
