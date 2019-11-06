@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { AppContainer } from 'react-hot-loader';
 import Redbox from 'redbox-react';
 
+import './styles/main.scss';
 import Presentation from './presentation';
 
 const CustomErrorReporter = ({ error }) => {

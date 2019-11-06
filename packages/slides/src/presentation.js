@@ -12,12 +12,12 @@ const theme = createTheme(
     {
         primary: 'white',
         secondary: '#1F2022',
+        black: '#000',
         tertiary: '#03A9FC',
         quaternary: '#CECECE',
     },
     {
         primary: 'Montserrat',
-        secondary: 'Helvetica',
     }
 );
 
@@ -25,7 +25,7 @@ class Presentation extends Component {
     render() {
         return (
             <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
-                <Slide1 />
+                <Slide1 bgColor="black" />
                 <Slide2 />
                 <Slide3 />
                 <Slide4 />

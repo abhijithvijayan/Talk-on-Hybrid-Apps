@@ -5,10 +5,10 @@ const Slide2 = () => {
     return (
         <Slide transition={['fade']} bgColor="tertiary">
             <Heading size={6} textColor="primary" caps>
-                Typography
+                Content | Introduction | Conclusion
             </Heading>
             <Heading size={1} textColor="secondary">
-                Heading 1
+                Page number |
             </Heading>
             <Heading size={2} textColor="secondary">
                 Heading 2
