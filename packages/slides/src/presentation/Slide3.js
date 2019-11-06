@@ -3,7 +3,7 @@ import { Slide, Text, List, Image, Layout, Fill, ListItem } from 'spectacle';
 import styled from 'styled-components';
 
 import MultiPlatform from '../assets/images/multi2.png';
-import HeaderText from './HeaderText';
+import HeaderText from '../components/HeaderText';
 
 const StyledText = styled(Text)`
     text-align: left;

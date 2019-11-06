@@ -3,10 +3,10 @@ import { Deck, SlideSet } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 import 'normalize.css';
 
-import Slide1 from './components/Slide1';
-import Slide2 from './components/Slide2';
-import Slide3 from './components/Slide3';
-import Slide4 from './components/Slide4';
+import Slide1 from './presentation/Slide1';
+import Slide2 from './presentation/Slide2';
+import Slide3 from './presentation/Slide3';
+import Slide4 from './presentation/Slide4';
 
 const theme = createTheme(
     {

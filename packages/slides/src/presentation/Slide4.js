@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide, BlockQuote, Cite, Quote } from 'spectacle';
 import styled from 'styled-components';
 
-import HeaderText from './HeaderText';
+import HeaderText from '../components/HeaderText';
 
 const Slide4 = () => {
     return (
