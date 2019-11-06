@@ -27,25 +27,25 @@ const StyledSecondaryText = styled(Text)`
     font-family: ${({ theme }) => {
         return theme.railway;
     }} !important;
+    letter-spacing: 1px;
+`;
+
+const StyledDeviceImage = styled(Image)`
+    height: 8em;
+    width: auto;
+    margin: 0;
+    display: inline-block;
 `;
 
 const Slide1 = props => {
     return (
         <Slide transition={['zoom']} bgColor="primary" {...props}>
-            <Image
-                src={DevicesImage}
-                style={{
-                    height: '8em',
-                    width: 'auto',
-                    margin: 0,
-                    display: 'inline-block',
-                }}
-            />
+            <StyledDeviceImage src={DevicesImage} />
             <StyledHeader style={{}} lineHeight={4} textColor="dark">
-                Hybrid Multi-platform / Cross-platform Apps
+                Hybrid Multi-Cross Platform Apps
             </StyledHeader>
             <Layout style={{ justifyContent: 'center', marginBottom: '5em' }}>
-                <Fill style={{ maxWidth: '48%' }}>
+                <Fill style={{ maxWidth: '50%' }}>
                     <StyledText style={{ textAlign: 'left' }} textColor="secondary">
                         The Art of
                     </StyledText>
@@ -63,11 +63,10 @@ const Slide1 = props => {
             </Layout>
             <Layout
                 style={{
-                    // position: 'relative',
                     position: 'absolute',
                     left: '0px',
                     paddingLeft: '50px',
-                    bottom: '67px',
+                    bottom: '55px',
                     width: '100%',
                 }}
             >
