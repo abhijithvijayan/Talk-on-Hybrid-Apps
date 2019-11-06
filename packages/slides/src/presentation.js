@@ -28,15 +28,20 @@ const theme = createTheme(
 );
 
 const Presentation = () => {
-    const [slideId, setSlideId] = useState(1);
-
     return (
-        <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
+        <Deck
+            transition={['zoom', 'slide']}
+            progress="number"
+            showFullscreenControl={false}
+            // controls={false}
+            transitionDuration={500}
+            theme={theme}
+        >
             <SlideSet>
                 <Slide1 />
-                <Slide2 slideId={slideId} setSlideId={setSlideId} />
-                <Slide3 slideId={slideId} setSlideId={setSlideId} />
-                <Slide4 slideId={slideId} setSlideId={setSlideId} />
+                <Slide2 />
+                <Slide3 />
+                <Slide4 />
             </SlideSet>
         </Deck>
     );

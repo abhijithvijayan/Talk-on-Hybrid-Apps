@@ -1,20 +1,9 @@
 import React from 'react';
 import { Slide, Heading, List, ListItem } from 'spectacle';
 
-import SlideId from './SlideId';
-
 const Slide3 = props => {
     return (
-        <Slide
-            transition={['fade']}
-            bgColor="primary"
-            textColor="tertiary"
-            {...props}
-            onActive={slideIndex => {
-                return props.setSlideId(slideIndex);
-            }}
-        >
-            <SlideId slideId={props.slideId} />
+        <Slide transition={['fade']} bgColor="primary" textColor="tertiary" {...props}>
             <Heading size={6} textColor="secondary" caps>
                 Standard List
             </Heading>
