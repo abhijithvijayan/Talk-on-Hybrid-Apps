@@ -11,7 +11,8 @@
     "react-hot-loader": "^4.12.15",
     "redbox-react": "^1.6.0",
     "spectacle": "^5.7.1",
-    "spectacle-scripts": "2.4.0"
+    "spectacle-scripts": "2.4.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -25,5 +26,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.4.0",
+    "sass-extract-loader": "^1.1.0"
+  }
 }
