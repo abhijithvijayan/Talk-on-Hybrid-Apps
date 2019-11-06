@@ -1,30 +1,33 @@
 import React from 'react';
-import { Heading, Text, Slide } from 'spectacle';
+import { Heading, Text, Slide, List, Appear, ListItem } from 'spectacle';
 
-const Slide2 = () => {
+// https://github.com/FormidableLabs/spectacle/issues/678
+const Slide2 = props => {
     return (
-        <Slide transition={['fade']} bgColor="tertiary">
-            <Heading size={6} textColor="primary" caps>
-                Content | Introduction | Conclusion
+        <Slide transition={['fade']} bgColor="tertiary" {...props}>
+            <Heading size={1} textColor="primary" caps>
+                Contents
             </Heading>
-            <Heading size={1} textColor="secondary">
-                Page number |
-            </Heading>
-            <Heading size={2} textColor="secondary">
-                Heading 2
-            </Heading>
-            <Heading size={3} textColor="secondary">
-                Heading 3
-            </Heading>
-            <Heading size={4} textColor="secondary">
-                Heading 4
-            </Heading>
-            <Heading size={5} textColor="secondary">
-                Heading 5
-            </Heading>
-            <Text size={6} textColor="secondary">
-                Standard text
-            </Text>
+            <List>
+                <Appear>
+                    <ListItem>Introduction</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>I</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>Dont</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>Know</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>Yet</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>Conclusion</ListItem>
+                </Appear>
+            </List>
         </Slide>
     );
 };
