@@ -10,14 +10,18 @@ import Slide4 from './components/Slide4';
 
 const theme = createTheme(
     {
-        primary: 'white',
+        primary: '#FFFFFF',
         secondary: '#1F2022',
+        dark: '#1A1A1A',
         black: '#000',
         tertiary: '#03A9FC',
         quaternary: '#CECECE',
+        lightBlue: '#6AA4C8',
+        light: '#A1A3A3',
+        lightWhite: '#DAE8F1',
     },
     {
-        primary: 'Montserrat',
+        primary: "'Roboto', sans-serif",
     }
 );
 
@@ -27,7 +31,7 @@ const Presentation = () => {
     return (
         <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
             <SlideSet>
-                <Slide1 bgColor="black" />
+                <Slide1 />
                 <Slide2 slideId={slideId} setSlideId={setSlideId} />
                 <Slide3 slideId={slideId} setSlideId={setSlideId} />
                 <Slide4 slideId={slideId} setSlideId={setSlideId} />
