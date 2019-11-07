@@ -18,7 +18,7 @@ const StyledListItem = styled(ListItem)`
 `;
 
 const StyledImage = styled(Image)`
-    height: 220px;
+    height: 250px;
     display: inline-block;
     margin-left: -2em !important;
     padding-right: 1em !important;
