@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, SlideSet, Slide } from 'spectacle';
+import { Deck, SlideSet } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 import 'normalize.css';
 

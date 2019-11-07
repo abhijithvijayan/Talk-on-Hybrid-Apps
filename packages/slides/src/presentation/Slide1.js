@@ -85,6 +85,17 @@ const Slide1 = props => {
                         style={{ margin: 'auto', marginLeft: '10px !important', fontSize: '22px' }}
                     >
                         Abhijith Vijayan
+                        <br />
+                        <p
+                            style={{
+                                margin: '0',
+                                paddingTop: '5px',
+                                fontSize: '17px',
+                                textAlign: 'left',
+                            }}
+                        >
+                            ADR16CS001
+                        </p>
                     </StyledSecondaryText>
                     <Fit>
                         <StyledSecondaryText
