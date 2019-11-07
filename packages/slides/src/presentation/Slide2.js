@@ -32,6 +32,7 @@ const Slide2 = props => {
                         <StyledListItem>The Downsides of Native</StyledListItem>
                         <StyledListItem>Conventional PWA</StyledListItem>
                         <StyledListItem>Best Approach</StyledListItem>
+                        <StyledListItem>Working: Under the hood</StyledListItem>
                         <StyledListItem>Demo</StyledListItem>
                         <StyledListItem>Conclusion</StyledListItem>
                     </List>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Layout, Fill, List, ListItem, Text, Image, Appear, Heading } from 'spectacle';
+import { Slide, Layout, List, ListItem, Image, Appear, Heading } from 'spectacle';
 import styled from 'styled-components';
 
 import HeaderText from '../components/HeaderText';
