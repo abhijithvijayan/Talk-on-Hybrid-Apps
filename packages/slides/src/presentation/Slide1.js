@@ -102,7 +102,7 @@ const Slide1 = props => {
                             textColor="black"
                             style={{ margin: 'auto', marginRight: '0px', fontSize: '20px', paddingBottom: '5px' }}
                         >
-                            {`${new Date().getDay()}-${new Date().getMonth() + 1}-${new Date().getFullYear()}`}
+                            07-11-2019
                         </StyledSecondaryText>
                         <StyledSecondaryText
                             textColor="black"
