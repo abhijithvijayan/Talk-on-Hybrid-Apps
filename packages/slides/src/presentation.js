@@ -9,6 +9,7 @@ import Slide3 from './presentation/Slide3';
 import Slide4 from './presentation/Slide4';
 import Slide5 from './presentation/Slide5';
 import Slide6 from './presentation/Slide6';
+import Slide7 from './presentation/Slide7';
 
 const theme = createTheme(
     {
@@ -46,6 +47,7 @@ const Presentation = () => {
                 <Slide4 />
                 <Slide5 />
                 <Slide6 />
+                <Slide7 />
             </SlideSet>
         </Deck>
     );
