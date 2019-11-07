@@ -1,26 +1,8 @@
 import React from 'react';
-import { Slide, Layout, List, ListItem, Image, Appear, Heading } from 'spectacle';
+import { Slide, Layout, List, ListItem, Image } from 'spectacle';
 import styled from 'styled-components';
 
-import HeaderText from '../components/HeaderText';
 import Flutter from '../assets/images/flutter.png';
-
-const StyledHeader = styled(HeaderText)`
-    color: #6aa4c8 !important;
-    font-family: ${({ theme }) => {
-        return theme.railway;
-    }} !important;
-    text-transform: none !important;
-`;
-
-const StyledText = styled(Heading)`
-    color: #dae8f1 !important;
-    font-family: ${({ theme }) => {
-        return theme.roboto;
-    }} !important;
-    text-transform: none !important;
-    padding-bottom: 1rem;
-`;
 
 const StyledListItem = styled(ListItem)`
     font-family: ${({ theme }) => {

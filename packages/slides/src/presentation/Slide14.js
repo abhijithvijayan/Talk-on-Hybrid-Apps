@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Layout, List, ListItem, Fill, Fit, Image, Appear } from 'spectacle';
+import { Slide, Layout, List, ListItem, Fill, Image, Appear } from 'spectacle';
 import styled from 'styled-components';
 
 import HeaderText from '../components/HeaderText';
@@ -25,8 +25,6 @@ const StyledListItem = styled(ListItem)`
 const StyledImage = styled(Image)`
     height: 350px;
     display: inline-block;
-    /* margin-left: -2em !important;
-    padding-right: 1em !important; */
 `;
 
 const Slide14 = props => {
