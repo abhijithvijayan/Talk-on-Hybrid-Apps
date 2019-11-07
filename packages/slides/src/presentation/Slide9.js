@@ -44,16 +44,16 @@ const Slide9 = props => {
             <StyledImage src={MainImage} />
             <Layout style={{ alignItems: 'center' }}>
                 <List bulletStyle="arrow">
-                    <StyledText style={{ fontSize: '1em !important', fontWeight: '600' }}>Flutter</StyledText>
-                    <StyledListItem>Developed by Google</StyledListItem>
+                    <StyledText style={{ fontSize: '1em !important', fontWeight: '600' }}>React-Native</StyledText>
+                    <StyledListItem>Developed by Facebook</StyledListItem>
                     <StyledListItem>Uses JavaScript along with JSX syntax for building views</StyledListItem>
                     <StyledListItem>
                         Requires a JavaScript bridge in order to interact with native elements
                     </StyledListItem>
                     <StyledText style={{ fontSize: '1em !important', fontWeight: '600', paddingTop: '20px' }}>
-                        React-Native
+                        Flutter
                     </StyledText>
-                    <StyledListItem>Developed by Facebook</StyledListItem>
+                    <StyledListItem>Developed by Google</StyledListItem>
                     <StyledListItem>Utilizes the Dart programming language</StyledListItem>
                     <StyledListItem>Hardware-specific API</StyledListItem>
                 </List>
