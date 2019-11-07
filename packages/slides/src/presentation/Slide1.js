@@ -7,7 +7,8 @@ import DevicesImage from '../assets/images/devices.png';
 
 const StyledHeader = styled(Heading)`
     text-align: center;
-    font-size: 2.7rem !important;
+    line-height: 3 !important;
+    font-size: 3.5rem !important;
 `;
 
 const StyledText = styled(Text)`
@@ -41,9 +42,7 @@ const Slide1 = props => {
     return (
         <Slide transition={['zoom']} bgColor="primary" {...props}>
             <StyledDeviceImage src={DevicesImage} />
-            <StyledHeader lineHeight={4} textColor="dark">
-                Hybrid Multi-Cross Platform Apps
-            </StyledHeader>
+            <StyledHeader textColor="dark">Hybrid Multi-Cross Platform Apps</StyledHeader>
             <Layout style={{ justifyContent: 'center', marginBottom: '5em' }}>
                 <Fill style={{ maxWidth: '50%' }}>
                     <StyledText style={{ textAlign: 'left' }} textColor="secondary">

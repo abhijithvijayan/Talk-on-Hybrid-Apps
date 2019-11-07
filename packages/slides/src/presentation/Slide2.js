@@ -29,7 +29,7 @@ const Slide2 = props => {
                 <Fill style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <List bulletStyle="arrow">
                         <StyledListItem>Introduction</StyledListItem>
-                        <StyledListItem>Native vs Hybrid Apps</StyledListItem>
+                        <StyledListItem>The Downsides of Native</StyledListItem>
                         <StyledListItem>Dont</StyledListItem>
                         <StyledListItem>Know</StyledListItem>
                         <StyledListItem>Demo</StyledListItem>

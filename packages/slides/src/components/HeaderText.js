@@ -8,10 +8,10 @@ const StyledHeader = styled(Heading)`
     text-align: left;
 `;
 
-const HeaderText = ({ text }) => {
+const HeaderText = props => {
     return (
-        <StyledHeader textColor="secondary" caps>
-            {text}
+        <StyledHeader textColor="secondary" caps {...props}>
+            {props.text}
         </StyledHeader>
     );
 };
