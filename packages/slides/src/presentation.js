@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, SlideSet } from 'spectacle';
+import { Deck, SlideSet, Slide } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
 import 'normalize.css';
 
@@ -15,6 +15,7 @@ import Slide9 from './presentation/Slide9';
 import Slide10 from './presentation/Slide10';
 import Slide11 from './presentation/Slide11';
 import Slide12 from './presentation/Slide12';
+import Slide13 from './presentation/Slide13';
 
 const theme = createTheme(
     {
@@ -58,6 +59,7 @@ const Presentation = () => {
                 <Slide10 />
                 <Slide11 />
                 <Slide12 />
+                <Slide13 />
             </SlideSet>
         </Deck>
     );

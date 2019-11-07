@@ -33,7 +33,7 @@ const Slide2 = props => {
                         <StyledListItem>Conventional PWA</StyledListItem>
                         <StyledListItem>Best Approach</StyledListItem>
                         <StyledListItem>Working: Under the hood</StyledListItem>
-                        <StyledListItem>Demo</StyledListItem>
+                        <StyledListItem>Virtual Demo</StyledListItem>
                         <StyledListItem>Conclusion</StyledListItem>
                     </List>
                     <Image
